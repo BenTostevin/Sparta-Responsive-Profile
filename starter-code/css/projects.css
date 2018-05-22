@@ -1,7 +1,7 @@
 .screenshot {
   padding-top:30px;
-  height: 200px;
-  width: 300px;
+  max-height: 200px;
+  max-width: 300px;
 }
 
 .tile {
@@ -36,6 +36,11 @@
   .tile {
     margin: 5%;
     width: 90%;
+  }
+
+
+  /* .screenshot  */
+
     /* border: 0px; */
   }
 }

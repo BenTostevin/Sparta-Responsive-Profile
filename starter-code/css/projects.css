@@ -4,6 +4,8 @@
   width: 300px;
 }
 
+
+
 .tile {
 	display: inline-block;
 	width: 30%;
@@ -17,4 +19,16 @@
 .tile img	{
 	display: block;
 	margin: 0 auto;
+}
+
+@media screen and (max-width: 1000px) {
+  .all-tiles {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .tile {
+    width: 100%;
+    }
+  }
 }

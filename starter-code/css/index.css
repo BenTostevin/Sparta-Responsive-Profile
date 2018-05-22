@@ -14,12 +14,10 @@ header {
 }
 
 .left {
-	/* float: left; */
 	width: 35%;
 }
 
 .right {
-	/* float: right; */
 	width: 60%;
 }
 
@@ -41,19 +39,6 @@ header, .experience {
 	border: 2px solid #E13A63;
 	padding: 10px;
 }
-/*
-@media screen and (max-width: 800px) {
-	.right {
-
-	}
-}
-
-
-@media screen and (max-width: 500px) {
-  .main-content {
-    width: 100%;
-    margin: 0;
-  } */
 
 @media screen and (max-width: 1000px) {
 
@@ -65,7 +50,6 @@ header, .experience {
 		width: 50%;
 	}
 }
-
 
 /* v What I want to happen for very small screens */
 @media screen and (max-width: 700px) {

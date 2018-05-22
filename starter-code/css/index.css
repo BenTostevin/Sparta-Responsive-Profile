@@ -64,12 +64,12 @@ header, section {
 }
 
 .left {
-	display: left;
+	float: left;
 	width: 35%;
 }
 
 .right {
-	display: right;
+	float: right;
 	width: 60%;
 }
 
@@ -92,6 +92,12 @@ header, .experience {
 	padding: 10px;
 }
 
+@media screen and (max-width: 1000px) {
+	.left, .right {
+		width:50%;
+	}
+}
+
 @media screen and (max-width: 700px) {
 	.main-content {
 		display: flex;
@@ -109,5 +115,7 @@ header, .experience {
 		border: 0;
 	}
 
-
+	li {
+		list-style-type: none;
+	}
 }

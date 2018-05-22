@@ -37,10 +37,10 @@
     margin: 5%;
     width: 90%;
   }
+}
 
-
-  /* .screenshot  */
-
-    /* border: 0px; */
+@media screen and (max-width: 700px) {
+  .tile {
+    border: 0px;
   }
 }

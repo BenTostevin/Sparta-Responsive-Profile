@@ -43,4 +43,8 @@
   .tile {
     border: 0px;
   }
+
+  div {
+    text-align: center;
+  }
 }

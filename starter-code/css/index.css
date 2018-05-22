@@ -1,0 +1,121 @@
+/* .main-content {
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+}
+
+.left {
+	width: 35%;
+}
+
+.right {
+	width: 60%;
+}
+
+#headshot {
+	display: block;
+	text-align: center;
+	margin: 50px auto 0;
+	border: 2px solid #E13A63;
+}
+
+.experience {
+	display: inline-block;
+	clear: both;
+	margin-top: 30px;
+	text-align: center;
+}
+
+header, .experience {
+	border: 2px solid #E13A63;
+	padding: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+	.left {
+		width: 50%;
+	}
+
+	.right {
+		width: 50%;
+	}
+}
+
+/* v What I want to happen for very small screens */
+/* @media screen and (max-width: 700px) {
+	header, .left, .right {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		width: 100%;
+	}
+
+	li {
+		list-style-type: none;
+	}
+} */
+
+header, section {
+	display: inline-block;
+}
+
+.left {
+	float: left;
+	width: 35%;
+}
+
+.right {
+	float: right;
+	width: 60%;
+}
+
+#headshot {
+	display: block;
+	text-align: center;
+	margin: 50px auto 0;
+	border: 2px solid #E13A63;
+}
+
+.experience {
+	display: inline-block;
+	clear: both;
+	margin-top: 30px;
+	text-align: center;
+}
+
+header, .experience {
+	border: 2px solid #E13A63;
+	padding: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+	.left, .right {
+		width:50%;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.main-content {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		width: 95%;
+		margin: 2.5%;
+	}
+
+	.left, .right {
+		width: 100%;
+	}
+
+	header, .experience {
+		border: 0;
+	}
+
+	li {
+		list-style-type: none;
+	}
+}
